@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-comerce</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.1/mixitup.min.js" integrity="sha512-nKZDK+ztK6Ug+2B6DZx+QtgeyAmo9YThZob8O3xgjqhw2IVQdAITFasl/jqbyDwclMkLXFOZRiytnUrXk/PM6A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./src/styles.css" />
+    <script src="./main.js" defer></script>
+  </head>
+  <body>
+    <header class="header">
+        <nav class="contenedor">
+            <div class="navegacion">
+              <div class="svgNavegacion">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48.92 56.48" class="nav_logo-icon"> <title>Academlo Logo</title> <g> <g> <path d="M28.58,15.39H25.16L35.78,36H31.49L20.67,15.71,8.23,38.82H18.94l3-5.43h-3.4l-1.47,2.54h-4l2.69-5.09H25.85l4.28,8H40.67ZM17.23,28.21l3.57-6.6,3.57,6.6Z"> </path> </g> </g> </svg>
+                <span>STORE</span>
+                
+              </div>
+              <p> <a href="#home">Home</a> <a href="#productos">Productos</a> </p>
+            </div>
+            <div class="iconoComprasCont">
+              <i class='bx bx-shopping-bag' id="iconoCompras">
+                <p class="totalItem"></p>
+              </i>
+            </div>
+            
+        </nav>
+        
+    </header>
+    <section class="home" id="home">
+      
+      <div class="imgHome">
+        <div></div>
+        <div class="imgHomeContenedor">
+          <img src="./src/sweater2.png" alt="imgsweater">
+        </div>
+        
+      </div>
+      <div class="descripcionHome">
+        <h2>Nuevas COLECCIONES de sudaderas 2022</h2>
+        <p>Última llegada de la nueva sudadera Hanes Midweight Crewneck importada de la serie 2022, con un diseño moderno.</p>
+        <h3>$14.00</h3>
+        <a href="#productos">
+        <button> mostrar mas</button></a>
+      </div>
+      
+        
+    </section>
+    <div class="filtro">
+      <button data-filter="all">Todo</button>
+      <button  data-filter=".shirt">Camisetas</button>
+      <button data-filter=".hoddie">Sudaderas</button>
+      <button data-filter=".sweater">Jersey</button>
+    </div>
+    <main class="contenedor" id="productos">
+      <section class="productos"></section>
+    </main>
+    <div class="compras">
+        <div class="productosCompra">
+          
+        </div>
+        <div class="total">
+          <div class="totalInfo">
+            
+          </div>
+          <button class="btnComprar">Comprar</button>
+        </div>
+    </div>
+   
+  </body>
+  <footer>
+    <section class="content_footer container">
+        <div class="footer_info">
+            <h3 class="footer_info-title">Our information</h3>
+            <ul>
+                <li><a href="#">Toluca - México</a></li>
+            </ul>
+        </div>
+
+        <div class="footer_info">
+            <h3 class="footer_info-title">About Us</h3>
+            <ul>
+                <li><a href="#">Support Center</a></li>
+                <li><a href="#">Customer Support</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Copy Right</a></li>
+            </ul>
+        </div>
+
+        <div class="footer_info">
+            <h3 class="footer_info-title">Product</h3>
+            <ul>
+                <li><a href="#">Hoodies</a></li>
+                <li><a href="#">Shirts</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Sweatshirts</a></li>
+            </ul>
+        </div>
+
+        <div class="footer_info">
+            <h3 class="footer_info-title">Social</h3>
+            <ul class="footer_link-social">
+                <li>
+                    <a href="#">
+                        <i class='bx bxl-facebook'></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class='bx bxl-twitter'></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class='bx bxl-instagram'></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <div class="datosP">
+      <p><b>Juan Esteban Bustos Morales, estebanbmth99@gmail.com <a href="https://github.com/esteban616/eComerceAcademlo.git" target="_blank">repositorio</a> </b></p>
+    </div>
+   
+</footer>
+</html>
