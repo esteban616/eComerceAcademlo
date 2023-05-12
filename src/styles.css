@@ -44,23 +44,28 @@ footer{
     background-color:  hsl(0, 26%, 77%);;
 }
 .header{
-    background-color:transparent;
-    box-shadow:var(--sombra);
+    background-color:hsl(354, 78%, 60%);;
+    
     height: var(--headerH);
     position: fixed;
     width: 100%;
     z-index: 1000;
-    transition: all 0.2s ease-in-out;
+    transition: all 0.4s ease-in-out;
     
 }
 .headerScroll{
     background-color: #f5f5f5;
+    box-shadow: var(--sombra);
 }
 .navegacion{
+    color: white;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 1rem;
+}
+.navegacionS{
+    color: black;
 }
 .navegacion p{
     display: flex;

@@ -221,10 +221,14 @@ async function main() {
     let header = document.querySelector(".header");
     header.classList.toggle("headerScroll", window.scrollY > 80);
   });
+  window.addEventListener("scroll", function() {
+    let navegacion = document.querySelector(".navegacion");
+    navegacion.classList.toggle("navegacionS", window.scrollY > 80);
+  });
  
-  // Esperar 2 segundos antes de ocultar la pantalla de carga
+ 
 setTimeout(function(){
-  // Ocultar la pantalla de carga
+  
   document.getElementById("pantalla-carga").style.display = "none";
 }, 1500);
 
